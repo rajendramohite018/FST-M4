@@ -1,0 +1,233 @@
+Task Name: complex_fiilter_Mapping1_complex_fiilter_Mapping1
+Agent Group Id: 025000000000002
+Agent Group Name: Informatica Cloud Hosted Agent
+Agent Id: 00800000000002J
+11/11/2022 04:47:27 **** Importing Connection: Conn_011SCX0B000000000002 ...
+11/11/2022 04:47:27 **** Importing Source Definition: Phones ...
+11/11/2022 04:47:27 **** Importing Target Definition: sony_phones_rajendra ...
+11/11/2022 04:47:27 **** Importing SessionConfig: default_session_config ...
+    <Warning> :  The Error Log DB Connection value should have Relational: as the prefix.
+    <Warning> :  Invalid value  for attribute Error Log DB Connection. Will use the default value 
+    Validating Source Definition  Phones...
+    Validating Target Definition  sony_phones_rajendra...
+11/11/2022 04:47:27 **** Importing Mapping: Mapping0 ...
+    <Warning> :  transformation: Source - Invalid value  for attribute Output is repeatable. Will use the default value Never    [transformation< Source > ] 
+Validating transformations of mapping Mapping0...
+Validating mapping variable(s).
+11/11/2022 04:47:27 **** Importing Workflow: wf_mtt_011SCX0Z000000000003 ...
+    <Warning> :  Invalid value None for attribute Pushdown Optimization Context. Will use the default value None     [Session< s_mtt_011SCX0Z000000000003 > ] 
+    <Warning> :  The value entered is not a valid integer.
+    <Warning> :  Invalid value NO for attribute Fail task after wait time. Will use the default value 
+Successfully extracted session instance [s_mtt_011SCX0Z000000000003].  Starting repository sequence id is [-855154339]
+DIRECTOR> VAR_27085 [2022-11-11 04:47:27.561] Parameter file [/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/011SCX0E0000000000BE/011SCX/parameters/s_mtt_011SCX0Z000000000003.param] is opened for [session [wf_mtt_011SCX0Z000000000003.s_mtt_011SCX0Z000000000003]].
+DIRECTOR> VAR_27062 [2022-11-11 04:47:27.561] Warning! Cannot find section for worklet [wf_mtt_011SCX0Z000000000003] and folder [] in parameter file [/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/011SCX0E0000000000BE/011SCX/parameters/s_mtt_011SCX0Z000000000003.param].
+DIRECTOR> TM_6014 [2022-11-11 04:47:27.561] Initializing session [s_mtt_011SCX0Z000000000003] at [Fri Nov 11 04:47:27 2022].
+DIRECTOR> TM_6683 [2022-11-11 04:47:27.562] Repository Name: [XMLRepository]
+DIRECTOR> TM_6684 [2022-11-11 04:47:27.562] Server Name: [rDTM]
+DIRECTOR> TM_6686 [2022-11-11 04:47:27.562] Folder: []
+DIRECTOR> TM_6685 [2022-11-11 04:47:27.562] Workflow: [wf_mtt_011SCX0Z000000000003] Run Instance Name: [] Run Id: [0]
+DIRECTOR> TM_6992 [2022-11-11 04:47:27.562] Opearting System Type [Linux]
+DIRECTOR> TM_6101 [2022-11-11 04:47:27.562] Mapping name: Mapping0.
+DIRECTOR> TM_6964 [2022-11-11 04:47:27.562] Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+DIRECTOR> TM_6703 [2022-11-11 04:47:27.562] Session [s_mtt_011SCX0Z000000000003] is run by 64-bit Integration Service  [], version [10.2.0 HotFix2], build [0320].
+MANAGER> PETL_24091 [2022-11-11 04:47:27.572] Thread [MANAGER] has the ID [1].
+MANAGER> PETL_24058 [2022-11-11 04:47:27.572] Running Partition Group [1].
+MANAGER> PETL_24000 [2022-11-11 04:47:27.572] Parallel Pipeline Engine initializing.
+MONITOR> PETL_24091 [2022-11-11 04:47:27.572] Thread [MONITOR] has the ID [2].
+MANAGER> PETL_24001 [2022-11-11 04:47:27.572] Parallel Pipeline Engine running.
+MANAGER> PETL_24003 [2022-11-11 04:47:27.572] Initializing session run.
+MAPPING> PETL_24091 [2022-11-11 04:47:27.572] Thread [MAPPING] has the ID [3].
+MAPPING> CMN_1569 [2022-11-11 04:47:27.574] Server Mode: [UNICODE]
+MAPPING> CMN_1570 [2022-11-11 04:47:27.574] Server Code page: [ISO 8859-1 Western European]
+MAPPING> TM_6151 [2022-11-11 04:47:27.574] The session sort order is [Binary].
+MAPPING> TM_6185 [2022-11-11 04:47:27.574] Warning. Code page validation is disabled in this session.
+MAPPING> CMN_65109 [2022-11-11 04:47:27.574] Current Timezone:[UTC +0:0]
+MAPPING> CMN_65111 [2022-11-11 04:47:27.574] Current Process ID:[27322]
+MAPPING> TM_6155 [2022-11-11 04:47:27.574] Using HIGH precision processing.
+MAPPING> TM_6180 [2022-11-11 04:47:27.574] Deadlock retry logic will not be implemented.
+MAPPING> TM_6187 [2022-11-11 04:47:27.574] Session target-based commit interval is [10000].
+MAPPING> TM_6307 [2022-11-11 04:47:27.575] DTM error log disabled. 
+MAPPING> TE_7022 [2022-11-11 04:47:27.575] TShmWriter: Initialized
+MAPPING> DBG_21694 [2022-11-11 04:47:27.576] Rank Partition [0]: Index cache size = [1000000], Data cache size = [2000000]
+MAPPING> TE_7212 [2022-11-11 04:47:27.577] Increasing [Index Cache] size for transformation [Rank] from [1000000] to [3586048].
+MAPPING> TE_7212 [2022-11-11 04:47:27.577] Increasing [Data Cache] size for transformation [Rank] from [2000000] to [2098176].
+MAPPING> TE_7029 [2022-11-11 04:47:27.577] Aggregate Information: Creating New Index and Data Files
+MAPPING> TE_7034 [2022-11-11 04:47:27.577] Aggregate Information: Index file is [/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/011SCX0E0000000000BE/011SCX/cache/PMAGG-855154307_5_0.idx]
+MAPPING> TE_7035 [2022-11-11 04:47:27.577] Aggregate Information: Data file is [/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/011SCX0E0000000000BE/011SCX/cache/PMAGG-855154307_5_0.dat]
+MAPPING> TM_6007 [2022-11-11 04:47:27.577] DTM initialized successfully for session [s_mtt_011SCX0Z000000000003]
+DIRECTOR> PETL_24033 [2022-11-11 04:47:27.592] All DTM Connection Info: [<NONE>].
+MANAGER> PETL_24004 [2022-11-11 04:47:27.593] Starting pre-session tasks. : (Fri Nov 11 04:47:27 2022)
+PRE-SESS> PETL_24091 [2022-11-11 04:47:27.593] Thread [PRE-SESS] has the ID [4].
+PRE-SESS> DBG_21349 [2022-11-11 04:47:27.594] No load constraints for Target [sony_phones_rajendra]. It does not reference any primary table from the same active source or transaction generator.
+PRE-SESS> DBG_21104 [2022-11-11 04:47:27.594] Determining truncate order for [sony_phones_rajendra] [instance id:2]
+PRE-SESS> DBG_21531 [2022-11-11 04:47:27.594]     Truncate order for [sony_phones_rajendra] [instance id:2] determined successfully
+PRE-SESS> CMN_1021 [2022-11-11 04:47:30.128] Database driver event...
+CMN_1021 [ODBC Event Using array fetches.
+ODBC Event Using Single Row Inserts. connect string = [Driver=MySQL ODBC 8.0 Unicode Driver;Server=remotemysql.com;Database=wOoJkjpNhU;Port=3306;USER=wOoJkjpNhU;NO_SSPS=1;stmt=set time_zone = '+00:00';OPTION=3;SSLMODE=DISABLED]. userid = [wOoJkjpNhU]
+ODBC Version:	03.52
+.
+DBMS Name:	MySQL
+.
+DBMS Version:	8.0.13-4
+.
+Driver Name:	libmyodbc8w.so
+.
+Driver Version:	08.00.0012
+.
+Driver ODBC Version:	03.80
+.
+MySQL rewrite batch optimization is disabled with maximum bind parameter size set to 2500.]
+
+PRE-SESS> WRT_8365 [2022-11-11 04:47:30.128] Starting truncate for target table [wOoJkjpNhU.sony_phones_rajendra]. : (Fri Nov 11 04:47:30 2022)
+PRE-SESS> WRT_8451 [2022-11-11 04:47:30.128] Query used for Truncate table [TRUNCATE TABLE wOoJkjpNhU.sony_phones_rajendra]
+PRE-SESS> WRT_8022 [2022-11-11 04:47:30.786] Truncate table for table [wOoJkjpNhU.sony_phones_rajendra] succeeded. : (Fri Nov 11 04:47:30 2022)
+MANAGER> PETL_24027 [2022-11-11 04:47:31.068] Pre-session task completed successfully. : (Fri Nov 11 04:47:31 2022)
+DIRECTOR> PETL_24006 [2022-11-11 04:47:31.068] Starting data movement.
+MAPPING> TM_6660 [2022-11-11 04:47:31.068] Total Buffer Pool size is 3958240 bytes and Block size is 217680 bytes.
+READER_1_1_1> PETL_24091 [2022-11-11 04:47:31.069] Thread [READER_1_1_1] has the ID [5].
+READER_1_1_1> DBG_21438 [2022-11-11 04:47:31.070] Reader: Source is [odbc://dbtype=MySQL;host=remotemysql.com;port=3306;database=wOoJkjpNhU], Type [ODBC], User [wOoJkjpNhU]
+READER_1_1_1> BLKR_16051 [2022-11-11 04:47:31.070] Source database connection [Conn_011SCX0B000000000002] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+READER_1_1_1> CMN_1021 [2022-11-11 04:47:31.070] Database driver event...
+CMN_1021 [Driver Manager used is [UnixODBC 2.3.4].]
+
+READER_1_1_1> CMN_1021 [2022-11-11 04:47:33.642] Database driver event...
+CMN_1021 [ODBC Event Using array fetches.
+ODBC Event Using Single Row Inserts. connect string = [Driver=MySQL ODBC 8.0 Unicode Driver;Server=remotemysql.com;Database=wOoJkjpNhU;Port=3306;USER=wOoJkjpNhU;NO_SSPS=1;stmt=set time_zone = '+00:00';OPTION=3;SSLMODE=DISABLED]. userid = [wOoJkjpNhU]
+ODBC Version:	03.52
+.
+DBMS Name:	MySQL
+.
+DBMS Version:	8.0.13-4
+.
+Driver Name:	libmyodbc8w.so
+.
+Driver Version:	08.00.0012
+.
+Driver ODBC Version:	03.80
+.
+MySQL rewrite batch optimization is disabled with maximum bind parameter size set to 2500.]
+
+READER_1_1_1> BLKR_16003 [2022-11-11 04:47:33.643] Initialization completed successfully.
+TRANSF_1_1_1> PETL_24091 [2022-11-11 04:47:33.643] Thread [TRANSF_1_1_1] has the ID [6].
+WRITER_1_*_1> PETL_24091 [2022-11-11 04:47:33.643] Thread [WRITER_1_*_1] has the ID [7].
+WRITER_1_*_1> WRT_8147 [2022-11-11 04:47:33.644] Writer: Target is Database [odbc://dbtype=MySQL;host=remotemysql.com;port=3306;database=wOoJkjpNhU], Type [ODBC], User [wOoJkjpNhU], Bulk Mode [OFF]
+WRITER_1_*_1> CMN_1021 [2022-11-11 04:47:33.644] Database driver event...
+CMN_1021 [Driver Manager used is [UnixODBC 2.3.4].]
+
+WRITER_1_*_1> CMN_1021 [2022-11-11 04:47:36.194] Database driver event...
+CMN_1021 [ODBC Event Using array fetches.
+ODBC Event Using Single Row Inserts. connect string = [Driver=MySQL ODBC 8.0 Unicode Driver;Server=remotemysql.com;Database=wOoJkjpNhU;Port=3306;USER=wOoJkjpNhU;NO_SSPS=1;stmt=set time_zone = '+00:00';OPTION=3;SSLMODE=DISABLED]. userid = [wOoJkjpNhU]
+ODBC Version:	03.52
+.
+DBMS Name:	MySQL
+.
+DBMS Version:	8.0.13-4
+.
+Driver Name:	libmyodbc8w.so
+.
+Driver Version:	08.00.0012
+.
+Driver ODBC Version:	03.80
+.
+MySQL rewrite batch optimization is disabled with maximum bind parameter size set to 2500.]
+
+WRITER_1_*_1> WRT_8221 [2022-11-11 04:47:36.760] Target database connection [Conn_011SCX0B000000000002] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+WRITER_1_*_1> WRT_8124 [2022-11-11 04:47:36.761] Target Table sony_phones_rajendra :SQL INSERT statement:
+INSERT INTO wOoJkjpNhU.sony_phones_rajendra(RANKINDEX,Prod_ID,Prod_Name,Prod_Desc,Prod_Price)  VALUES ( ?, ?, ?, ?, ?) 
+WRITER_1_*_1> WRT_8124 [2022-11-11 04:47:36.761] Target Table sony_phones_rajendra :SQL UPDATE statement:
+UPDATE wOoJkjpNhU.sony_phones_rajendra SET RANKINDEX = ?, Prod_Name = ?, Prod_Desc = ?, Prod_Price = ? WHERE Prod_ID = ?
+WRITER_1_*_1> WRT_8124 [2022-11-11 04:47:36.761] Target Table sony_phones_rajendra :SQL DELETE statement:
+DELETE FROM wOoJkjpNhU.sony_phones_rajendra WHERE Prod_ID = ?
+WRITER_1_*_1> WRT_8270 [2022-11-11 04:47:36.761] Target connection group #1 consists of target(s) [sony_phones_rajendra]
+WRITER_1_*_1> WRT_8003 [2022-11-11 04:47:36.761] Writer initialization complete.
+READER_1_1_1> BLKR_16007 [2022-11-11 04:47:36.761] Reader run started.
+WRITER_1_*_1> WRT_8005 [2022-11-11 04:47:36.761] Writer run started.
+WRITER_1_*_1> WRT_8158 [2022-11-11 04:47:36.762] 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Fri Nov 11 04:47:36 2022
+
+Target tables:
+
+     sony_phones_rajendra
+
+
+READER_1_1_1> RR_4010 [2022-11-11 04:47:36.762] SQ instance [Source] SQL Query [SELECT wOoJkjpNhU.Phones.Prod_ID, wOoJkjpNhU.Phones.Prod_Name, wOoJkjpNhU.Phones.Prod_Desc, wOoJkjpNhU.Phones.Prod_Price FROM wOoJkjpNhU.Phones]
+READER_1_1_1> RR_4049 [2022-11-11 04:47:36.762] SQL Query issued to database : (Fri Nov 11 04:47:36 2022)
+READER_1_1_1> RR_4050 [2022-11-11 04:47:37.050] First row returned from database to reader : (Fri Nov 11 04:47:37 2022)
+READER_1_1_1> BLKR_16019 [2022-11-11 04:47:37.050] Read [100] rows, read [0] error rows for source table [Phones] instance name [Phones]
+READER_1_1_1> BLKR_16008 [2022-11-11 04:47:37.050] Reader run completed.
+TRANSF_1_1_1> TE_7032 [2022-11-11 04:47:37.054] The B-Tree being managed in files
+/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/011SCX0E0000000000BE/011SCX/cache/PMAGG-855154307_5_0.dat for Data and
+
+/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/011SCX0E0000000000BE/011SCX/cache/PMAGG-855154307_5_0.idx for Index has:
+	Index Size:	515
+	Row Size:	5456
+	Order:		100
+	Minimum Order:	50
+	Height:		1
+	Entries:	54
+	IndexPageSize:	52736
+	IndexPages:	68
+	DataPageSize:	5464
+	DataPages:	384
+
+WRITER_1_*_1> WRT_8167 [2022-11-11 04:47:37.054] Start loading table [sony_phones_rajendra] at: Fri Nov 11 04:47:36 2022
+TRANSF_1_1_1> DBG_21216 [2022-11-11 04:47:37.054] Finished transformations for Source Qualifier [Source]. Total errors [0] 
+WRITER_1_*_1> WRT_8168 [2022-11-11 04:47:59.423] End loading table [sony_phones_rajendra] at: Fri Nov 11 04:47:58 2022
+WRITER_1_*_1> WRT_8141 [2022-11-11 04:47:59.708] 
+Commit on end-of-data  Fri Nov 11 04:47:59 2022
+===================================================
+
+WRT_8036 Target: sony_phones_rajendra (Instance Name: [sony_phones_rajendra])
+WRT_8038 Inserted rows - Requested: 79         Applied: 79         Rejected: 0          Affected: 79        
+
+WRITER_1_*_1> WRT_8035 [2022-11-11 04:47:59.709] Load complete time: Fri Nov 11 04:47:59 2022
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: sony_phones_rajendra (Instance Name: [sony_phones_rajendra])
+WRT_8038 Inserted rows - Requested: 79         Applied: 79         Rejected: 0          Affected: 79        
+
+
+WRITER_1_*_1> WRT_8043 [2022-11-11 04:47:59.709] *****END LOAD SESSION*****
+WRITER_1_*_1> WRT_8006 [2022-11-11 04:47:59.993] Writer run completed.
+MANAGER> PETL_24031 [2022-11-11 04:47:59.994] 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [Source] has completed.
+	Total Run Time = [0.574600] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [Source] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [sony_phones_rajendra] has completed.
+	Total Run Time = [22.939189] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+
+MAPPING> CMN_1791 [2022-11-11 04:47:59.994] The index cache size that would hold [54] aggregate groups of input rows for [Rank], in memory, is [52736] bytes
+MAPPING> CMN_1790 [2022-11-11 04:47:59.994] The data cache size that would hold [54] aggregate groups of input rows for [Rank], in memory, is [295056] bytes
+MANAGER> PETL_24005 [2022-11-11 04:47:59.994] Starting post-session tasks. : (Fri Nov 11 04:47:59 2022)
+POST-SESS> PETL_24091 [2022-11-11 04:47:59.995] Thread [POST-SESS] has the ID [8].
+MANAGER> PETL_24029 [2022-11-11 04:47:59.995] Post-session task completed successfully. : (Fri Nov 11 04:47:59 2022)
+MAPPING> TM_6018 [2022-11-11 04:47:59.995] The session completed with [0] row transformation errors. 
+MANAGER> TE_7216 [2022-11-11 04:47:59.995] Deleting cache files [/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/011SCX0E0000000000BE/011SCX/cache/PMAGG-855154307_5_0.idx] for transformation [Rank].
+MANAGER> TE_7216 [2022-11-11 04:47:59.995] Deleting cache files [/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/011SCX0E0000000000BE/011SCX/cache/PMAGG-855154307_5_0.dat] for transformation [Rank].
+MANAGER> PETL_24002 [2022-11-11 04:48:00.623] Parallel Pipeline Engine finished.
+DIRECTOR> PETL_24012 [2022-11-11 04:48:00.624] Session run completed successfully.
+DIRECTOR> TM_6022 [2022-11-11 04:48:00.624] 
+
+SESSION LOAD SUMMARY
+================================================
+
+DIRECTOR> TM_6252 [2022-11-11 04:48:00.624] Source Load Summary.
+DIRECTOR> CMN_1740 [2022-11-11 04:48:00.624] Table: [Source] (Instance Name: [Source] Instance UI Name: [Source])
+	 Output Rows [100], Affected Rows [100], Applied Rows [100], Rejected Rows [0]
+DIRECTOR> TM_6253 [2022-11-11 04:48:00.624] Target Load Summary.
+DIRECTOR> CMN_1740 [2022-11-11 04:48:00.624] Table: [sony_phones_rajendra] (Instance Name: [sony_phones_rajendra] Instance UI Name: [Target])
+	 Output Rows [79], Affected Rows [79], Applied Rows [79], Rejected Rows [0]
+DIRECTOR> TM_6023 [2022-11-11 04:48:00.624] 
+===================================================
+
+DIRECTOR> TM_6020 [2022-11-11 04:48:00.624] Session [s_mtt_011SCX0Z000000000003] completed at [Fri Nov 11 04:48:00 2022].
